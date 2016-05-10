@@ -20,7 +20,7 @@ public class AVEXDB {
         // To connect to mongodb server
         //MongoClient mongoClient = new MongoClient( "localhost" , 27017 );
 			
-        MongoClient mongoClient = new MongoClient(Program.DATABASE_CONNECTION , 27017 );
+        MongoClient mongoClient = new MongoClient(Program.DATABASE_CONNECTION , Program.DATABASE_PORT );
     	
         // Now connect to your databases
 		DB db = mongoClient.getDB(Program.DATABASE_NAME);
@@ -76,7 +76,7 @@ public class AVEXDB {
 		
         // To connect to mongodb server
         //MongoClient mongoClient = new MongoClient( "localhost" , 27017 );
-	    MongoClient mongoClient = new MongoClient(Program.DATABASE_CONNECTION , 27017 );
+	    MongoClient mongoClient = new MongoClient(Program.DATABASE_CONNECTION , Program.DATABASE_PORT );
 			
 			
         // Now connect to your databases
