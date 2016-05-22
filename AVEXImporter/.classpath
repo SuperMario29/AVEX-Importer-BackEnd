@@ -6,9 +6,8 @@
 	<classpathentry kind="lib" path="src/libs/avex-athletedata.jar"/>
 	<classpathentry kind="lib" path="src/libs/avex-models.jar"/>
 	<classpathentry kind="lib" path="src/libs/bson-3.0.4.jar"/>
-	<classpathentry kind="lib" path="src/libs/mongo-java-driver-3.2.0.jar"/>
-	<classpathentry kind="lib" path="src/libs/mongodb-driver-3.2.0.jar"/>
 	<classpathentry kind="lib" path="src/libs/mongodb-driver-async-3.2.0.jar"/>
 	<classpathentry kind="lib" path="src/libs/mongodb-driver-core-3.2.0.jar"/>
+	<classpathentry kind="lib" path="src/libs/mongo-java-driver-3.2.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
