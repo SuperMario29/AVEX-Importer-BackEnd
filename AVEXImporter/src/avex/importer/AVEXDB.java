@@ -51,7 +51,7 @@ public class AVEXDB {
            athlete.append("isavailable", false);
            athlete.append("isresellable", false);
            athlete.append("imageurl","");
-           athlete.append("recordstatusdate", new Date().getTime());
+           athlete.append("recordstatusdate", new Date());
            athlete.append("recordstatus", 1);
       	   BasicDBObject query = new BasicDBObject();
      	   query.append("athleteid", athlete.get("athleteid"));
@@ -97,7 +97,7 @@ public class AVEXDB {
            team.append("name",tempteam.get("team_name"));
            team.append("abbreviation", tempteam.get("abbreviation"));
            team.append("city", tempteam.get("city"));
-           team.append("recordstatusdate", new Date().getTime());
+           team.append("recordstatusdate", new Date());
            team.append("recordstatus", 1);
            team.append("imageurl","");
       	   BasicDBObject query = new BasicDBObject();
