@@ -48,6 +48,8 @@ public class AVEXDB {
            athlete.append("totalshares", 1000);
            athlete.append("orderseq", 0);
            athlete.append("currentprice", 0.00);
+           athlete.append("currentqueue", 0);
+           athlete.append("nextqueue", 0);
            athlete.append("isavailable", false);
            athlete.append("isresellable", false);
            athlete.append("imageurl","");
